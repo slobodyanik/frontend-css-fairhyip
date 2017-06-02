@@ -11,6 +11,28 @@ body {
     width: 1000px;
 }
 
+/*_______authorization_______*/
+
+.auth{
+    position:absolute;
+    top:41px;
+    right:21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+.auth > .auth-link a{
+    padding-right: 10px;
+    padding-left: 10px;
+    color:#ffffff;
+}
+
+.auth .signin a{
+     border-right:1px solid white;
+     color: #b09874;
+}
+
+
 h1 {
  
   font-size: 22px;
@@ -55,11 +77,13 @@ color: #d7cfc8;
  top: 50%;
  transform: translateY(-50%);
  }
- /*________promo___________*/
+
+
+ /*________content___________*/
+
+ 
  .content .promo {
 box-sizing: border-box;
-margin-left: 101px;
-margin-right: 101px;
 background-image: url(../images/bg_promo.png), url(../images/bg_about.png);
 background-repeat: repeat, no-repeat;
 background-position:55px 50%;
@@ -87,6 +111,53 @@ width: 234px;
 height: 94px;
 margin-top: 64px;
 margin-left: 133px;
+}
+
+/*_______footer_______*/
+
+.footer{
+    box-sizing: border-box;
+    width: 1000px;
+    height: 76px;
+    position: relative;
+    border-top:1px solid #a28243;
+}
+
+.footer .copyright{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color:#f9da5a;
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 43px;
+    margin-bottom: 22px;
+}
+
+.footermenu {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    right: 0;
+    bottom: 0;
+    margin-top: 43px;
+    margin-bottom: 22px;
+}
+ 
+ .footermenu>.menu-list {
+     /*deal with this shit*/
+ }
+ 
+ .footermenu > .menu-list > .menu-item {
+    display: inline-block;
+    
+    border-left:1px solid #e7e3e1;
+ }
+
+.footermenu .menu-list a{
+color: #ffffff;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 
