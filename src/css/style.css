@@ -5,10 +5,12 @@ body {
     width: 100%;
     height: 100%;
     line-height: normal;
+    margin: 0;
 }
 
 .wrapper {
     width: 1000px;
+    margin: auto;
 }
 
 /*_______authorization_______*/
@@ -33,6 +35,78 @@ body {
 }
 
 
+
+/*__navigation-menu__*/
+.mainmenu {
+box-sizing: border-box;
+background-color: #f4f3f2;
+font-size: 14px;
+border-radius: 5px;
+border:1px solid #f6f5f4;
+position: absolute;
+right: 0;
+bottom:40px;
+height: 40px;
+
+}
+
+.mainmenu > .menu-list {
+    display: inline-block;
+
+}
+
+.mainmenu .menu-item {
+    display: inline-block;
+    padding: 12px 27px;
+}
+
+.mainmenu .menu-item a {
+    color:#461500;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.mainmenu .menu-item.active {
+    background-image: url(../images/bg_menu-item-active.png);
+    background-repeat: no-repeat;
+}
+
+/*_____languages____*/
+.lang-list {
+    font-size: 11px;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    margin:40px 0 0 20px;
+}
+.lang-list > .lang-item {
+    display: inline-block;
+    border-left: 1px solid #ffffff;
+    padding:0 10px 0;
+   
+}
+
+.lang-list>.lang-item:first-child {
+    color:#e8d1a4;
+    border-left:none;
+}
+
+.lang-list>.lang-item:nth-child(2) a {
+    color:#ffffff;
+}
+.lang-list>.lang-item:nth-child(3) a {
+    color:#e8d1a4;
+    text-decoration: none;
+}
+
+.lang-list>.lang-item:last-child a {
+    border-right: none;
+    color:#ffffff;
+}
+
+
+/*_____content_____*/
 h1 {
  
   font-size: 22px;
@@ -54,14 +128,14 @@ article {
 
 }
  
-.article> h2 {
+ h2 {
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 18px;
      color: #fff68d;
      padding-bottom: 25px;
 }
 
-.article>p {
+.article > p {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 11px;
 color: #d7cfc8;
@@ -70,7 +144,7 @@ color: #d7cfc8;
 
      
  
- article>img{
+ article > img{
  display: block;    
  position: absolute;
  left: 0;
@@ -79,7 +153,7 @@ color: #d7cfc8;
  }
 
 
- /*________content___________*/
+ /*________content.promo___________*/
 
  
  .content .promo {
@@ -106,7 +180,7 @@ height: 200px;
 position: relative;
 }
 
-.logo>img {
+.logo > img {
 width: 234px;
 height: 94px;
 margin-top: 64px;
@@ -121,6 +195,7 @@ margin-left: 133px;
     height: 76px;
     position: relative;
     border-top:1px solid #a28243;
+    margin: auto;
 }
 
 .footer .copyright{
@@ -143,11 +218,9 @@ margin-left: 133px;
     margin-top: 43px;
     margin-bottom: 22px;
 }
- 
- .footermenu>.menu-list {
-     /*deal with this shit*/
- }
- 
+
+     
+
  .footermenu > .menu-list > .menu-item {
     display: inline-block;
     
