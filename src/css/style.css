@@ -1,5 +1,6 @@
 /*_________main___________*/
-body { 
+
+body {
     background-image: url(../images/bg_body.jpg);
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
@@ -13,74 +14,72 @@ body {
     margin: auto;
 }
 
+
 /*______logo______*/
 
 .header .logo img {
-position: absolute;
-left: -110px;
-width: 225px;
-height: auto;
+    position: absolute;
+    left: -110px;
+    width: 225px;
+    height: auto;
 }
+
 
 /*_______authorization_______*/
 
-.auth{
-    position:absolute;
-    top:41px;
-    right:21px;
+.auth {
+    position: absolute;
+    top: 41px;
+    right: 21px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11px;
 }
 
-.auth > .auth-link a{
+.auth > .auth-link a {
     padding-right: 10px;
     padding-left: 10px;
-    color:#ffffff;
+    color: #ffffff;
 }
 
-.auth .signin a{
-     border-right:1px solid white;
-     color: #b09874;
+.auth .signin a {
+    border-right: 1px solid white;
+    color: #b09874;
 }
-
 
 
 /*__navigation-menu__*/
-.mainmenu {
-box-sizing: border-box;
-background-color: #f4f3f2;
-font-size: 14px;
-border-radius: 5px;
-border:1px solid #f6f5f4;
-position: absolute;
-right: 0;
-bottom:40px;
-height: 40px;
-vertical-align: middle;
 
+.mainmenu {
+    box-sizing: border-box;
+    background-color: #f4f3f2;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #f6f5f4;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    height: 40px;
+    vertical-align: middle;
 }
 
 .mainmenu > .menu-list {
     display: inline-block;
-    
-
 }
 
 .mainmenu .menu-item {
     display: inline-block;
     height: 40px;
     width: 112px;
-    }
+}
 
 .mainmenu .menu-item a {
-    color:#461500;
+    color: #461500;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     height: 100%;
     padding: 12px 27px;
     display: block;
-    
 }
 
 .mainmenu .menu-item.active {
@@ -88,50 +87,51 @@ vertical-align: middle;
     background-repeat: no-repeat;
 }
 
+
 /*_____languages____*/
+
 .lang-list {
     font-size: 11px;
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
-    margin:40px 0 0 20px;
+    margin: 40px 0 0 20px;
 }
+
 .lang-list > .lang-item {
     display: inline-block;
     border-left: 1px solid #ffffff;
-    padding:0 10px 0;
-   
+    padding: 0 10px 0;
 }
 
 .lang-list>.lang-item:first-child {
-    color:#e8d1a4;
-    border-left:none;
+    color: #e8d1a4;
+    border-left: none;
 }
 
 .lang-list>.lang-item:nth-child(2) a {
-    color:#ffffff;
+    color: #ffffff;
 }
+
 .lang-list>.lang-item:nth-child(3) a {
-    color:#e8d1a4;
+    color: #e8d1a4;
     text-decoration: none;
 }
 
 .lang-list>.lang-item:last-child a {
     border-right: none;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 
 /*_____content_____*/
+
 h1 {
- 
-  font-size: 22px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(234, 212, 170);
-  padding-bottom: 18px;
-  font-style: normal;
-  
-  
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(234, 212, 170);
+    padding-bottom: 18px;
+    font-style: normal;
 }
 
 article {
@@ -141,90 +141,83 @@ article {
     margin-top: 55px;
     margin-bottom: 65px;
     line-height: normal;
-    
-
-
-
 }
- 
- h2 {
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     font-size: 18px;
-     color: #fff68d;
-     padding-bottom: 25px;
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #fff68d;
+    padding-bottom: 25px;
 }
 
 .article > p {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 11px;
-color: #d7cfc8;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: #d7cfc8;
 }
 
-     
- 
- article > img{
- display: block;    
- position: absolute;
- left: 0;
- top: 50%;
- transform: translateY(-50%);
- height: auto;
- width: 100px;
- }
+article > img {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    width: 100px;
+}
 
 
- /*________content.promo___________*/
+/*________content.promo___________*/
 
- 
- .content .promo {
-box-sizing: border-box;
-background-image: url(../images/bg_about.png), url(../images/bg_promo.png);
-background-repeat: no-repeat, repeat;
-background-position: 55px 50%;
-border-radius: 9px;
-height: 157px;
-width: 100%;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-style: italic;
-font-size: 14px;
-color: #f9da5a;
-line-height: 22px;
-padding-top: 24px;
-padding-left: 146px;
-padding-right: 45px;
+.content .promo {
+    box-sizing: border-box;
+    background-image: url(../images/bg_about.png), url(../images/bg_promo.png);
+    background-repeat: no-repeat, repeat;
+    background-position: 55px 50%;
+    border-radius: 9px;
+    height: 157px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #f9da5a;
+    line-height: 22px;
+    padding-top: 24px;
+    padding-left: 146px;
+    padding-right: 45px;
+}
 
-
- }
 
 /*_______header_________*/
+
 .header {
-height: 200px;
-position: relative;
+    height: 200px;
+    position: relative;
 }
 
 .logo > img {
-width: 234px;
-height: 94px;
-margin-top: 64px;
-margin-left: 133px;
+    width: 234px;
+    height: 94px;
+    margin-top: 64px;
+    margin-left: 133px;
 }
+
 
 /*_______footer_______*/
 
-.footer{
+.footer {
     box-sizing: border-box;
     width: 1000px;
     height: 76px;
     position: relative;
-    border-top:1px solid #a28243;
+    border-top: 1px solid #a28243;
     margin: auto;
 }
 
-.footer .copyright{
+.footer .copyright {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11px;
-    color:#f9da5a;
+    color: #f9da5a;
     padding-left: 10px;
     display: inline-block;
     vertical-align: top;
@@ -242,21 +235,17 @@ margin-left: 133px;
     margin-bottom: 22px;
 }
 
-     
-
- .footermenu > .menu-list > .menu-item {
-    display: inline-block;
-    
-    border-left:1px solid #e7e3e1;
- }
-
-.footermenu .menu-list a{
-color: #ffffff;
-padding-left: 10px;
-padding-right: 10px;
+.footermenu > .menu-list:first-child {
+    border-left: none;
 }
 
+.footermenu > .menu-list > .menu-item {
+    display: inline-block;
+    border-left: 1px solid #e7e3e1;
+}
 
-
-
- 
+.footermenu .menu-list a {
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
