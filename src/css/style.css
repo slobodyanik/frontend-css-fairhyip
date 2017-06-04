@@ -235,17 +235,22 @@ article > img {
     margin-bottom: 22px;
 }
 
-.footermenu > .menu-list:first-child {
-    border-left: none;
-}
+
+    
 
 .footermenu > .menu-list > .menu-item {
     display: inline-block;
     border-left: 1px solid #e7e3e1;
+
 }
+.footermenu > .menu-list > .menu-item:first-child {
+    border-left: none;
+}
+
 
 .footermenu .menu-list a {
     color: #ffffff;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
 }
