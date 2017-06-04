@@ -1,7 +1,7 @@
 /*_________main___________*/
 body { 
     background-image: url(../images/bg_body.jpg);
-    margin-left: 101px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     height: 100%;
     line-height: normal;
@@ -11,6 +11,15 @@ body {
 .wrapper {
     width: 1000px;
     margin: auto;
+}
+
+/*______logo______*/
+
+.header .logo img {
+position: absolute;
+left: -110px;
+width: 225px;
+height: auto;
 }
 
 /*_______authorization_______*/
@@ -124,6 +133,9 @@ article {
     padding-left: 126px;
     margin-top: 55px;
     margin-bottom: 65px;
+    line-height: normal;
+    
+
 
 
 }
@@ -150,6 +162,8 @@ color: #d7cfc8;
  left: 0;
  top: 50%;
  transform: translateY(-50%);
+ height: auto;
+ width: 100px;
  }
 
 
@@ -158,9 +172,9 @@ color: #d7cfc8;
  
  .content .promo {
 box-sizing: border-box;
-background-image: url(../images/bg_promo.png), url(../images/bg_about.png);
-background-repeat: repeat, no-repeat;
-background-position:55px 50%;
+background-image: url(../images/bg_about.png), url(../images/bg_promo.png);
+background-repeat: no-repeat, repeat;
+background-position: 55px 50%;
 border-radius: 9px;
 height: 157px;
 width: 100%;
@@ -172,6 +186,8 @@ line-height: 22px;
 padding-top: 24px;
 padding-left: 146px;
 padding-right: 45px;
+
+
  }
 
 /*_______header_________*/
