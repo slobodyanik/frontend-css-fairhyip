@@ -14,15 +14,23 @@ body {
     margin: auto;
 }
 
+/*____header_____*/
 
-/*______logo______*/
+.header {
+    height: 200px;
+    position: relative;
+}
 
-.header .logo img {
+.logo > img {
     position: absolute;
-    left: -110px;
+    width: 234px;
+    height: 94px;
+    margin-top: 64px;
+    margin-left: 33px;
     width: 225px;
     height: auto;
 }
+
 
 
 /*_______authorization_______*/
@@ -50,14 +58,14 @@ body {
 /*__navigation-menu__*/
 
 .mainmenu {
-    box-sizing: border-box;
+    
     background-color: #f4f3f2;
     font-size: 14px;
     border-radius: 5px;
     border: 1px solid #f6f5f4;
     position: absolute;
     right: 0;
-    bottom: 40px;
+    bottom: 38px;
     height: 40px;
     vertical-align: middle;
 }
@@ -73,11 +81,12 @@ body {
 }
 
 .mainmenu .menu-item a {
+    box-sizing: border-box;
     color: #461500;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
-    height: 100%;
+    height: 40px;
     padding: 12px 27px;
     display: block;
 }
@@ -91,6 +100,7 @@ body {
 /*_____languages____*/
 
 .lang-list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11px;
     position: absolute;
     top: 0;
@@ -104,21 +114,21 @@ body {
     padding: 0 10px 0;
 }
 
-.lang-list>.lang-item:first-child {
+.lang-list > .lang-item:first-child {
     color: #e8d1a4;
     border-left: none;
 }
 
-.lang-list>.lang-item:nth-child(2) a {
+.lang-list > .lang-item:nth-child(2) a {
     color: #ffffff;
 }
 
-.lang-list>.lang-item:nth-child(3) a {
+.lang-list > .lang-item:nth-child(3) a {
     color: #e8d1a4;
     text-decoration: none;
 }
 
-.lang-list>.lang-item:last-child a {
+.lang-list > .lang-item:last-child a {
     border-right: none;
     color: #ffffff;
 }
@@ -188,19 +198,7 @@ article > img {
 }
 
 
-/*_______header_________*/
 
-.header {
-    height: 200px;
-    position: relative;
-}
-
-.logo > img {
-    width: 234px;
-    height: 94px;
-    margin-top: 64px;
-    margin-left: 133px;
-}
 
 
 /*_______footer_______*/
@@ -210,7 +208,8 @@ article > img {
     width: 1000px;
     height: 76px;
     position: relative;
-    border-top: 1px solid #a28243;
+    border-top: 1px solid  #9f7f42; 
+    opacity: 0.5;
     margin: auto;
 }
 
@@ -243,7 +242,7 @@ article > img {
     border-left: 1px solid #e7e3e1;
 
 }
-.footermenu > .menu-list > .menu-item:first-child {
+.footermenu > .menu-list > .menu-item :first-child {
     border-left: none;
 }
 
